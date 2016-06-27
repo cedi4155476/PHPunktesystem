@@ -1,0 +1,10 @@
+Options +FollowSymLinks -Indexes
+
+RewriteEngine on
+
+RewriteBase /
+
+#Verzeichnisse ausschliessen
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(img|css|js|includes|templates|files|ajax|cron|fonts|classes)/ - [L]
