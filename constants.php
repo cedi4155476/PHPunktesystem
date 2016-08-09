@@ -1,6 +1,6 @@
 <?php
 
-    define('BASE_URL', 'http://localhost/myscripts/punktesystem/');
+    define('BASE_URL', './');
     define('CSS_URL', BASE_URL.'css/');
     define('JS_URL', BASE_URL.'js/');
     

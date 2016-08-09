@@ -3,10 +3,10 @@
     ini_set('session.use_trans_sid', false);
     ini_set('session.use_only_cookies', true); 
 
-    include("constants.php");   
+    include("constants.php");
     include("whitelist.php");
 
-    //tirm all spaces before toucing the $_POST array
+    //trim all spaces before touching the $_POST array
     $_POST = array_map('trim', $_POST);
 
 
